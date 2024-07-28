@@ -249,6 +249,8 @@ a:visited {
 
 
  .sort-btns {
+  position: relative;
+  width: 100%;
   display: flex;
   align-items: flex-start;
   gap: 10px;
@@ -284,3 +286,15 @@ a:visited {
   background-color: var(--color-dark--2);
 
  }
+
+ .sort-btns__reset {
+  position: absolute;
+  right: 0;
+  top: 0;
+ }
+.sort-btns__reset.hidden {
+display: none;
+}
+.sort-btns.hidden {
+display: none;
+}
