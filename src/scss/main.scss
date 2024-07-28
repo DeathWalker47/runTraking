@@ -1,0 +1,16 @@
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "libs";
+@import "global";
+@import "mixins";
+
+
+//Большие компоненты страницы
+@import "./components/style";
+
+
+//Маленькие компоненты
+// @import "./components/";
+
+@import "media";
